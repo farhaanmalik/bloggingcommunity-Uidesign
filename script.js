@@ -9,13 +9,13 @@ for (let i = 0; i < sortBtn.length; i++) {
 }
 
 
-// explore more categories on clicking 
-let moreBtn = document.getElementById("more-btn");
-let moreCatg = document.getElementById("more-catg");
+// // explore more categories on clicking 
+// let moreBtn = document.getElementById("more-btn");
+// let moreCatg = document.getElementById("more-catg");
 
-function catgFunction() {
-    window.location.assign("/html/explore.html")
-}
+// function catgFunction() {
+//     window.location.assign("/html/explore.html")
+// }
 
 
 //see all trending post

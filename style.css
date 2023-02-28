@@ -433,3 +433,220 @@ header{
 .moreTr.active{
     display: block;
 }
+
+
+/* Login and Signup form CSS */
+.sign-section{
+    max-width: 1300px;
+    margin: 0% auto;
+    padding: 0px 10px;
+}
+.sign-area{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 8% auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 4px #dae0e4;
+    border-radius: 10px;
+    padding: 18px;
+}
+.sign-area h3{
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.mid-line{
+    width: 1px;
+    height: 400px;
+    margin: 0px 50px;
+    background-color: #bdbdbd;
+}
+/* continue with link */
+.sign-link{
+    display: flex;
+    flex-direction: column;
+}
+.link-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 250px;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 2px #bdbdbd;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    color: #4b4b4b;
+}
+.link-box:hover{
+    background-color: #f3f7fb;
+}
+.link-box img{
+    width: 25px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+/* form control area */
+.sign-col-1, .sign-col-2{
+    padding: 10px;
+}
+.sign-col-2 form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-col-2 form label{
+    font-size: 18px;
+}
+.sign-col-2 form input{
+    width: 300px;
+    outline: none;
+    border: none;
+    background-color: #f3f7fb;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 6px 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px #bdbdbd;
+}
+.sign-col-2 form input:focus{
+    /* border: 1px solid #0097e3; */
+    box-shadow: 0px 0px 2px #0097e3;
+}
+.sign-col-2 form button{
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #0097e3;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 6px 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px #bdbdbd;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .3s;
+}
+.sign-col-2 form button:hover{
+    background-color: #00aaff;
+    box-shadow: 0px 3px 5px #bdbdbd;
+}
+#check{
+    width: fit-content;
+    margin: 10px 5px;
+    box-shadow: none;
+}
+#checkbox{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form span{
+    margin: 10px 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+form span a{
+    color: #0097e3;
+    padding-top: 15px;
+}
+
+
+/* User profile css */
+.user-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.user-box{
+    width: 100%;
+    margin-left: 30px;
+    height: 120vh;
+    background-color: #ffff;
+    margin-top: 15px;
+    padding: 40px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #c3c3c3;
+}
+.profile-section{
+    max-width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 30px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 140px;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 50%;
+}
+.profile-details{
+    width: 50%;
+    margin-left: 50px;
+    padding: 15px 0px;
+}
+.profile-name{
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+.profile-short{
+    padding-top: 10px;
+    color: #636363;
+}
+.m-device{
+    margin-top: 15px;
+    display: none;
+}
+.follow-link{
+    display: flex;
+    align-items: center;
+}
+.lg-device{
+    display: block;
+}
+.follow-link a{
+    font-size: 18px;
+    color: #ffff;
+    background-color:  #0097e3;
+    text-decoration: none;
+    padding: 6px 18px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+}
+
+.user-social-link{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.location p, .join p{
+    color: #5b5b5b;
+    font-size: 15px;
+}
+.social-links span a i{
+    margin: 0px 10px;
+    font-size: 18px;
+    color: #5b5b5b;
+    transition: all .3s;
+}
+.social-links span a i:hover{
+    color: #000;
+}
+
