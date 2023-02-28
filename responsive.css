@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+@media screen and (max-width: 1200px) {
+    .home-mid {
+        margin: 15px 0px;
+    }
+    .user-box{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    header {
+        padding: 15px;
+    }
+
+    .home-mid {
+        margin: 15px;
+    }
+
+    .side-logo {
+        padding: 25px 0px;
+        display: block;
+        margin-left: 25px;
+        justify-content: space-between;
+    }
+
+    .side-logo a {
+        color: #0097e3;
+    }
+
+    .home-left {
+        position: fixed;
+        top: 0px;
+        left: -400px;
+        border-radius: 0;
+        height: 100vh;
+        transition: all .6s;
+    }
+
+    .home-left.active {
+        left: 0px;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .content {
+        max-width: 100vw;
+        margin: 5px 0px;
+    }
+
+    .sortby {
+        margin: 0px;
+        max-width: 100vw;
+    }
+
+    .user-box{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .home-mid {
+        margin: 15px 0px;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .below-nav {
+        display: block;
+    }
+}
+@media screen and (max-width: 750px) {
+    .sign-area{
+        flex-direction: column-reverse;
+    }
+    .mid-line{
+        display: none;
+    }
+
+    .user-box{
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    header{
+        padding: 10px 20px;
+    }
+    .navbar{
+        height: fit-content;
+    }
+    .menu-bar{
+        font-size: 18px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .b-sign{
+        display: none;
+        position: absolute;
+        top: 55px;
+        right: 10px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 2px #7a7a7a;
+        color: black;
+        border-radius: 5px;
+    }
+    .b-sign.active{
+        display: block;
+    }
+    .b-sign::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: 24px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid #ffffff;
+    }
+
+    .account .row {
+        margin: 25px 10px;
+
+    }
+
+    .sign-in a {
+        color: #000000;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .sign-up a {
+        color: #ffffff;
+        background-color: #0097e3;
+        border: 2px solid #0097e3;
+        padding: 5px;
+    }
+
+    .sign-in a:hover {
+        color: #cceeff;
+        background-color: #0193dc8d;
+        text-decoration: underline;
+    }
+
+    .sign-up a:hover {
+        color: #ffffff;
+        background: transparent;
+    }
+
+    .sign-logo {
+        display: block;
+        box-shadow: 0px 0px 1px #7a7a7a;
+    }
+
+    .post {
+        display: block;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .content-img img {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+
+    .user-box{
+        padding: 10px 0px;
+    }
+    .profile{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .profile img{
+        width: 100px;
+    }
+    .profile-details{
+        width: 60%;
+        margin-left: 10px;
+        padding: 5px 0px;
+    }
+    .profile-name{
+        font-size: 22px;
+        letter-spacing: .5px;
+        
+    }
+    .profile-short{
+        font-size: 15px;
+    }
+    .profile-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .lg-device{
+        display: none;
+    }
+    .m-device{
+        display: block;
+    }
+    .follow-link a{
+        font-size: 15px;
+    }
+
+    .user-social-link{
+        padding: 0;
+        display: block;
+        line-height: 30px;
+    }
+    .social-links span a i{
+        margin: 0px;
+        margin-right: 10px
+    }
+}
